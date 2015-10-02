@@ -1,0 +1,62 @@
+  @import "foundation";
+  @import "foundation/settings";
+  @import "foundation/functions";
+
+
+  $dark-color : beige;
+  $block-a-color: #3AA53C;
+  $block-b-color: #7B2886;
+  $block-c-color: #4E6D7A;
+  $block-d-color: #52358C;
+  $block-e-color: #1FB1CB;
+  $block-f-color: #52358C;
+  $block-g-color: #3BA63D;
+
+  body {
+    background: $dark-color;
+  }
+
+  #block-a,
+  #block-b,
+  #block-c,
+  #block-d,
+  #block-e,
+  #block-f,
+  #block-g{
+    padding: 20px;
+  }
+
+  #block-a{
+    background-color: $block-a-color;
+    max-width: 200px;
+  }
+
+  #block-b{
+    background-color: $block-b-color;
+    max-width: 200px;
+  }
+
+  #block-c{
+    background-color: $block-c-color;
+    max-width: 200px;
+  }
+
+  #block-d{
+    background-color: $block-d-color;
+    max-width: 200px;
+  }
+
+  #block-e{
+    background-color: $block-e-color;
+    max-width: 200px;
+  }
+
+  #block-f{
+    background-color: $block-f-color;
+    max-width: 200px;
+  }
+
+  #block-g{
+    background-color: $block-g-color;
+    max-width: 200px;
+  }
