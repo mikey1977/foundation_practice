@@ -7794,51 +7794,50 @@ th.hide-for-touch {
   .show-for-print {
     display: none !important; } }
 
-/* line 15, stdin */
+/* line 18, stdin */
 body {
-  background: beige; }
+  background: beige;
+  text-align: center;
+  box-sizing: border-box; }
 
 /* line 25, stdin */
-#block-a,
-#block-b,
-#block-c,
-#block-d,
-#block-e,
-#block-f,
-#block-g {
-  padding: 20px; }
+#whole {
+  width: 500px;
+  max-width: 600px;
+  margin: auto;
+  padding: 10px;
+  background-color: white;
+  box-sizing: border-box;
+  display: inline-block; }
 
-/* line 29, stdin */
+/* line 66, stdin */
+#nav {
+  background-color: #1FB1CB; }
+
+/* line 92, stdin */
 #block-a {
-  background-color: #3AA53C;
-  max-width: 200px; }
+  background-color: #3AA53C; }
 
-/* line 34, stdin */
+/* line 96, stdin */
 #block-b {
-  background-color: #7B2886;
-  max-width: 200px; }
+  background-color: #7B2886; }
 
-/* line 39, stdin */
+/* line 100, stdin */
 #block-c {
-  background-color: #4E6D7A;
-  max-width: 200px; }
+  background-color: #4E6D7A; }
 
-/* line 44, stdin */
+/* line 104, stdin */
 #block-d {
-  background-color: #52358C;
-  max-width: 200px; }
+  background-color: #52358C; }
 
-/* line 49, stdin */
+/* line 108, stdin */
 #block-e {
-  background-color: #1FB1CB;
-  max-width: 200px; }
+  background-color: #1FB1CB; }
 
-/* line 54, stdin */
+/* line 112, stdin */
 #block-f {
-  background-color: #52358C;
-  max-width: 200px; }
+  background-color: #52358C; }
 
-/* line 59, stdin */
+/* line 116, stdin */
 #block-g {
-  background-color: #3BA63D;
-  max-width: 200px; }
+  background-color: #3BA63D; }

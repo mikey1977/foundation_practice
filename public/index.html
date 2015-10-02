@@ -9,18 +9,65 @@
 <body>
   <h1>Hello</h1>
 
-    <div class="row">
-      <div id="block-a" class="small-12 medium-6 large-3">Dashboard Module 1</div>
-      <div id="block-b" class="small-12 medium-6 large-3">Dashboard Module 2</div>
-      <div id="block-c" class="small-12 medium-6 large-3">Dashboard Module 3</div>
-      <div id="block-d" class="medium-6 large-3 show-for-medium-up">Dashboard Module 4</div>
+  <div id="nav">
+  <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+    <li class="name">
+      <h1><a href="#">Search</a></h1>
+    </li>
+  </ul>
+    <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="active"><a href="#">Alerts</a></li>
+      <li class="has-dropdown">
+        <a href="#">Messages</a>
+      </li>
+    </ul>
+
+    <!-- Left Nav Section -->
+    <ul class="left">
+      <li><a href="#">Full Screen</a></li>
+    </ul>
+  </section>
+</nav>
+  </div>
+
+  <div id="whole">
+    <div class="row1">
+      <div class="block-wrapper">
+        <div id="block-a" class="small-12 medium-6 large-3 columns">Dashboard Module 1</div>
+      </div>
+
+      <div class="block-wrapper">
+        <div id="block-b" class="small-12 medium-6 large-3 columns">Dashboard Module 2</div>
+      </div>
+
+      <div class="block-wrapper">
+        <div id="block-c" class="small-12 medium-6 large-3 columns">Dashboard Module 3</div>
+      </div>
+
+      <div class="block-wrapper">
+        <div id="block-d" class="medium-6 large-3 columns show-for-medium-up">Dashboard Module 4</div>
+      </div>
     </div>
 
-    <div class="row">
-      <div id="block-e" class="medium-12 large-4 show-for-medium-up">Dashboard Module 5</div>
-      <div id="block-f" class="large-4 show-for-large-only">Dashboard Module 6</div>
-      <div id="block-g" class="large-4 show-for-large-only">Dashboard Module 7</div>
+    <div class="row2">
+      <div class="block-wrapper">
+        <div id="block-e" class="medium-12 large-4 columns show-for-medium-up">Dashboard Module 5</div>
+      </div>
+
+      <div class="block-wrapper">
+        <div id="block-f" class="large-4 columns show-for-large-only">Dashboard Module 6</div>
+      </div>
+
+      <div class="block-wrapper">
+        <div id="block-g" class="large-4 columns show-for-large-only">Dashboard Module 7</div>
+      </div>
     </div>
+  </div>
+
+
 
 
   <script src="/js/modernizr.js"></script>
